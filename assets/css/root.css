@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* root.scss */
+/* imports des modules scss -imports des css de toutes les pages du site- */
+/* breakpoints bootstrap -taille d'écran- */
+/*
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+*/
+/* app.scss fichier de surcharge */
+/*class pour cacher des éléments*/
+.hidden {
+  display: none;
+}
+
+/*ligne de séparation dorée*/
+.ligne-or {
+  width: 65%;
+  height: 5px;
+  margin: 5vh auto;
+  text-align: center;
+  background-color: #E09813;
+}
+
+/*# sourceMappingURL=root.css.map */
