@@ -30,4 +30,13 @@
   background-color: #E09813;
 }
 
+/*annule le style par defaut des balises em et strong*/
+strong {
+  font-weight: 500 !important;
+}
+
+em {
+  font-style: normal !important;
+}
+
 /*# sourceMappingURL=root.css.map */
