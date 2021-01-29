@@ -7,7 +7,7 @@
     <meta name="title" content="Vrtysens">
     <meta name="description" content="Virtysens | La capsule de voyage en VR">
     <meta name="keywords" content="fr">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex">
     <meta name="language" content="French">
     <!--meta stop-->
     <title>Virtysens | Accueil</title>
@@ -22,10 +22,10 @@
 <body>
     
     <!--header start-->
-    <header>
+    <header class="pb-3" style="background-color: black; border-bottom: 5px solid#E09813;">
         <!--menu de navigation start-->
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html" style="margin-left: 7vh;">
                 <!--logo cliquable-->
                 <figure class="img-fluid">
                     <img src="assets/img/logo.png" alt="logo virtysens" style="width: 128px;">
@@ -36,42 +36,42 @@
                 </figure>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="nav-mobile navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">ACCUEIL</span></a>
+            <div class="collapse navbar-collapse mx-auto text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active mx-2">
+                        <a class="nav-link text-info" href="index.html">ACCUEIL</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="produits.html">PRODUITS</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="produits.html">PRODUITS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="media.html">MEDIA</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="media.html">MEDIA</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="histoire.html">HISTOIRE</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="histoire.html">HISTOIRE</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="contact.html">CONTACT</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">BLOG</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="blog.html">BLOG</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="jobs.html">JOBS</a>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-info" href="jobs.html">JOBS</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!--menu de navigation stop-->
         <!--div des titres h1 et h2 start-->
-        <div class="container">
-            <h1>
+        <div class="mr-auto col-2 text-center">
+            <h1 class="h3 text-info">
                 VIRTYSENS
             </h1>
-            <h2>
+            <h2 class="h6 text-info">
                 La capsule de voyage en VR
             </h2>
         </div>
@@ -82,9 +82,9 @@
     <!--main start-->
     <main class="accueil container-fluid text-center mx-auto mt-5">
 
-        <!--premiere section avec 3 images start-->
-        <section class="accueil-item-1">
-            <h3 class="col-12">
+        <!--1 section avec 3 images start-->
+        <section class="accueil-section-1">
+            <h3 class="text-info">
                 Bien-être et Relaxation pour seniors et Handicapés grâce à une capsule multi sensorielle immersive !
             </h3>
             <div class="container mt-5">   
@@ -93,44 +93,270 @@
                         <img src="assets/img/118560697_2684338251885556_3060423610165184357_n.jpg" alt="photo de Virtysens en mas" title="Démonstration de Virtysens en mas" class="img-fluid  col-12">
                         <figcaption class="hidden">Virtysens en mas</figcaption>
                     </figure>
-                    <figure class="col-4  mx-auto">
+                    <figure class="col-4 mx-auto">
                         <img src="assets/img/76922067_2426344967684887_869086430482137088_o.jpg" alt="photo de Virtysens en ehpad" title="Démonstration de Virtysens en ehpad" class="img-fluidk col-12">
                         <figcaption class="hidden">Virtysens en ehpad</figcaption>
                     </figure>  
-                    <figure class="col-4  mx-auto">
+                    <figure class="col-4 mx-auto">
                         <img src="assets/img/118577795_2684338171885564_3383877923757284756_n.jpg" alt="photo de Virtysens en ime" title="Démonstration de Virtysens en ime" class="img-fluid col-12">
                         <figcaption class="hidden">Virtysens en ime</figcaption>
                     </figure>
                 </div>
             </div>
         </section>
-        <!--premiere section avec 3 images stop-->
+        <!--1 section avec 3 images stop-->
 
-    <!--ligne de separation doree start-->
-    <div class="ligne-or">
-    </div>
-    <!--ligne de separation doree stop-->
+        <!--ligne de separation doree start-->
+        <div class="ligne-or">
+        </div>
+        <!--ligne de separation doree stop-->
 
-    <section class="accueil-item-2 container">
-        <div class="row text-center mx-auto">
-            <h3>
-                Une innovation <strong>Made in Hauts de France</strong> qui redonne le sourire !
-            </h3>
+        <!--2 section avec player start-->
+        <section class="accueil-section-2 container">
+            <div class="row text-center mx-auto">
+                <h3 class="text-info">
+                    Une innovation <strong>Made in Hauts de France</strong> qui redonne le sourire !
+                </h3>
+                <div class="ratio ratio-16x9 my-5">
+                    <iframe src="https://www.youtube.com/embed/NTW74iDfYfk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="btn-cta mx-auto my-1 text-center">
+                    <a href="contact.html" class="btn btn-info btn-md mx-auto text-white py-2 col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">JE VEUX EN SAVOIR PLUS</a>
+                </div>
+            </div>
+        </section>
+        <!--2 section avec player stop-->
 
-            <div class="ratio ratio-16x9 my-5">
-                <iframe width="280" height="157" src="https://www.youtube.com/embed/NTW74iDfYfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+        <!--ligne de separation doree start-->
+        <div class="ligne-or">
+        </div>
+        <!--ligne de separation doree stop-->
+
+        <!--3 section avec atouts start-->
+        <section class="accueil-section-3 container">
+            <div class="row text-center mx-auto text-center">
+                <h3 class="mx-auto my-3 text-info">
+                    Ce qui caractérise la solution <strong>VirtySens</strong> :
+                </h3>
+                <div class="container mt-3 mx-auto text-center">
+                    <div class="row">
+                        <!--item 1 start-->
+                        <div class="accueil-section-3-item mx-auto my-1 col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 text-center">
+                            <div>
+                                <figure>
+                                    <img src="assets/img/item-1.png" alt="image facilité d'utilisation de virtysens" title="facilité d'utilisation de virtysens" class="img-fluid col-8">
+                                    <figcaption class="hidden">facilité d'utilisation de virtysens</figcaption>
+                                </figure>
+                            </div>
+                            <div class="my-3">
+                                <h4><strong>Facile à utiliser</strong></h4>
+                            </div>
+                            <div>
+                                <p">
+                                    Une approche <em>Plug&Play</em> : <br>
+                                    - une prise à brancher... et c’est tout ! <br>
+                                    - Pas de connexion réseau <br>
+                                    - Pas de protocole compliqué
+                                </p>
+                            </div>
+                        </div>
+                        <!--item 1 stop-->
+                        <!--item 2 start-->
+                        <div class="accueil-section-3-item mx-auto my-1 col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 text-center">
+                            <div>
+                                <figure>
+                                    <img src="assets/img/item-2.png" alt="image mobilité de virtysens" title="mobilité de virtysens" class="img-fluid col-8">
+                                    <figcaption class="hidden">mobilité de virtysens</figcaption>
+                                </figure>
+                            </div>
+                            <div class="my-3">
+                                <h4><strong>Mobile</strong></h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Notre <em>dispositif</em> s’adapte à vos besoins : <br>
+                                    - compatible avec vos ascenseurs <br>
+                                    - compatible avec vos portes <br>
+                                    - peut s’utiliser en position assise ou allongée
+                                </p>
+                            </div>
+                        </div>
+                        <!--item 2 stop-->
+                        <!--item 3 start-->
+                        <div class="accueil-section-3-item mx-auto my-1 col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 text-center">
+                            <div>
+                                <figure>
+                                    <img src="assets/img/item-3.png" alt="photo de Virtysens en ime" title="Démonstration de Virtysens en ime" class="img-fluid col-8">
+                                    <figcaption class="hidden">Virtysens en ime</figcaption>
+                                </figure>
+                            </div>
+                            <div class="my-3">
+                                <h4><strong>Immersif</strong></h4>
+                            </div>
+                            <div>
+                                <p>
+                                    4 <strong>sens</strong> sollicités de façon combinées pour une totale <strong>immersion</strong> : <br>
+                                    - La <em>vue</em> et l’<em>ouïe</em> grâce au casque de <strong>réalité virtuelle</strong> <br>
+                                    - Le <em>toucher</em> et l’<em>odorat</em> grâce aux boîtiers <strong>multi-sensoriels</strong>.
+                                </p>
+                            </div>
+                        </div>
+                        <!--item 3 stop-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--3 section avec atouts stop-->
+
+        <!--ligne de separation doree start-->
+        <div class="ligne-or">
+        </div>
+        <!--ligne de separation doree stop-->
+
+        <!--4 section avec deux colonnes start-->
+        <section class="accueil-section-3 container my-1">
+            <div class="row mx-auto text-center">
+                <!--item 1 start-->
+                <div class="accueil-section-4-item mx-auto row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    
+                    <div class="accueil-section-4-item-1 mx-auto my-1 col-12 col-sm-10 col-md-12 col-lg-6 col-xl-6">
+                        <h3 class="mx-auto mb-4 text-info">L’<em>immersion</em> par les sens</h3>
+                        <p class="text-start">
+                            Le dispositif <strong>VirtySens</strong> allie 4 <em>sens</em>, pour immerger l’utilisateur au coeur de l’expérience, et lui faire ressentir des <em>sensations</em> intenses et souvent oubliées. <br><br>
+                            - La <em>vue</em> et l’<em>ouïe</em> par le biais du <em>casque VR</em>.<br><br>
+                            - L’<em>odorat</em> , par la diffusion de micro goutelettes d’<em>huiles essentielles</em> en lien avec les images diffusées sur le casque. <br><br>
+                            - Le <em>toucher</em> , par la génération de <em>vents chauds</em> et <em>froids</em> en fonction des scènes.
+                        </p>
+                    </div>
+
+                    <div class="accueil-section-4-item-2 mx-auto col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                        <figure>
+                            <img src="assets/img/118560697_2684338251885556_3060423610165184357_n.jpg" alt="" class="img-fluid col-6">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <!--item 1 stop-->
+                <hr class="my-3">
+
+                <!--item 2 start-->
+                <div class="accueil-section-4-item mx-auto my-3 row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    
+                    <div class="accueil-section-4-item-2 mx-auto col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                        <figure>
+                            <img src="assets/img/76922067_2426344967684887_869086430482137088_o.jpg" alt="" class="img-fluid col-6">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="accueil-section-4-item-1 mx-auto my-1 col-12 col-sm-10 col-md-12 col-lg-6 col-xl-6">
+                        <h3 class="mx-auto mb-4 text-info">Des expériences pour tous !</h3>
+                        <p class="text-start">
+                            Développée avec une <strong>Sophrologue</strong> <strong>Psychologue</strong> et avec une <strong>Psycho motricienne</strong>, et enrichie par les retours des <strong>éducateurs spécialisés</strong>, <strong>animateurs</strong> et <strong>soignants</strong>, notre <em>palette d’expériences</em> est diversifiée : <br><br>
+                            - <strong>Evasion Découvertes</strong> , grâce à des <strong>voyages</strong> en <em>terres inconnues</em>, où les <em>ambiances</em> <em>chaleureuses</em> ou <em>glaciales</em> sont très <strong>immersives</strong> et fascinantes. <br><br>
+                            - <strong>Souvenirs</strong> , en plongeant dans des <em>décors</em> et <em>atmosphères connus</em> : Les <em>monuments de Paris</em>, <em>Venise</em>, les <em>Pyramides</em>… <br><br>
+                            - La <strong>relaxation</strong> , grâce à des <em>expériences</em> spécialement conçues pour amener l’utilisateur dans un état de <strong>bien être</strong> absolu. 
+                        </p>
+                    </div>
+                
+                </div>
+                <!--item 2 stop-->
+            </div>
+            <div class="btn-cta mx-auto my-1 text-center">
+                <a href="contact.html" class="btn btn-info btn-md mx-auto text-white py-2 col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">JE VEUX EN SAVOIR PLUS</a>
             </div>
 
-            <a href="contact.html" class="col-4 px-3 py-2 btn btn-md btn-info mx-auto text-white">JE VEUX EN SAVOIR PLUS</a>
+        </section>
+        <!--4 section avec deux colonnes stop-->
 
+        <!--ligne de separation doree start-->
+        <div class="ligne-or">
         </div>
-    </section>
+        <!--ligne de separation doree stop-->
 
-    <!--ligne de separation doree start-->
-    <div class="ligne-or">
-    </div>
-    <!--ligne de separation doree stop-->
+        <!--5 section avec témoignages start-->
+        <section class="accueil-section-3 container">
+            
+            <div class="row text-center mx-auto text-center">
+                <h3 class="mx-auto my-3 text-info">
+                    Témoignage de nos heureux utilisateurs
+                </h3>
 
+                <div class="container mx-auto text-center my-5">
+                    <div class="row mx-auto">
+
+                        <!--temoignage 1 start-->
+                        <accueil-section-5-item class="mx-auto my-1 col-12 col-sm-11 col-md-4 col-lg-3 col-xl-3 text-center border border-dark">
+                            <div class="col-3 mt-3">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-start">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent hendrerit, dui a congue convallis, justo metus interdum dolor, a aliquam est mi maximus ligula. 
+                                    Aliquam erat volutpat. Nulla eleifend velit in erat convallis condimentum. Praesent blandit eleifend eleifend. 
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="badge bg-info py-2 px-3">
+                                    John Doe <br>
+                                    Lorem ipsum dolor sit amet
+                                </p>
+                            </div>
+                        </accueil-section-5-item>
+                        <!--temoignage 1 start-->
+                        
+                        <!--temoignage  start-->
+                        <accueil-section-5-item class="mx-auto my-1 col-12 col-sm-11 col-md-4 col-lg-3 col-xl-3 text-center border border-dark">
+                            <div class="col-3 mt-3">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-start">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent hendrerit, dui a congue convallis, justo metus interdum dolor, a aliquam est mi maximus ligula. 
+                                    Aliquam erat volutpat. Nulla eleifend velit in erat convallis condimentum. Praesent blandit eleifend eleifend. 
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="badge bg-info py-2 px-3">
+                                    John Doe <br>
+                                    Lorem ipsum dolor sit amet
+                                </p>
+                            </div>
+                        </accueil-section-5-item>
+                        <!--temoignage 2 stop-->
+                        <!--temoignage 3 start-->
+                        <accueil-section-5-item class="mx-auto my-1 col-12 col-sm-11 col-md-4 col-lg-3 col-xl-3 text-center border border-dark">
+                            <div class="col-3 mt-3">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-start">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent hendrerit, dui a congue convallis, justo metus interdum dolor, a aliquam est mi maximus ligula. 
+                                    Aliquam erat volutpat. Nulla eleifend velit in erat convallis condimentum. Praesent blandit eleifend eleifend. 
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="badge bg-info py-2 px-3">
+                                    John Doe <br>
+                                    Lorem ipsum dolor sit amet
+                                </p>
+                            </div>
+                        </accueil-section-5-item>
+                        <!--temoignage 3 stop-->
+                    </div>
+                </div>
+
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+        </section>
 
 
 
@@ -144,5 +370,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--bootstrap js import stop-->
+    <!--font awesome start-->
+    <script src="https://kit.fontawesome.com/11070bdd9d.js" crossorigin="anonymous"></script>
+    <!--font awesome stop-->
 </body>
 </html>
