@@ -16,6 +16,11 @@
 
 /* app.scss fichier de surcharge */
 
+/* vitesse du scroll*/
+html {
+    scroll-behavior: smooth;
+  }
+
 /*class pour cacher des éléments*/
 .hidden {
     display: none;
