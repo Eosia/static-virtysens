@@ -16,7 +16,32 @@
     @media (min-width: 576px) { ... }
 */
 /* app.scss fichier de surcharge */
-/* vitesse du scroll*/
+/*imports des polices*/
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lora:wght@600&family=Noto+Sans+JP&family=Orbitron:wght@600&display=swap");
+/*utilisation des polices*/
+/*
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Lora', serif;
+font-family: 'Noto Sans JP', sans-serif;
+*/
+/*variables des polices*/
+/*lora*/
+/*noto*/
+/*balsamiq*/
+/*font virtysens*/
+/*variables des couleurs*/
+/*titre*/
+/*texte*/
+/*bouton cta*/
+/*reset html, body*/
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,5 +68,180 @@ strong {
 em {
   font-style: normal !important;
 }
+
+/* temporaire ------------------------------------------------------------ */
+/*taille de police de 12px*/
+.font-12 {
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  font-weight: 400 !important;
+}
+
+/* scss du header et menu de navigation */
+header {
+  background-color: #000;
+  border-bottom: 5px solid #E09813;
+  width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  /*menu de navigation*/
+  /*titre du site dans le header*/
+}
+header nav {
+  padding-right: 15px !important;
+}
+header nav .nav-link {
+  font-family: "Orbitron", sans-serif;
+}
+header .header-title {
+  margin: auto !important;
+}
+header .header-title h1 {
+  font-family: "Orbitron", sans-serif;
+}
+header .header-title h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+  header {
+    /*menu de navigation*/
+    /*titre du site dans le header*/
+  }
+  header nav .nav-item .nav-link {
+    width: auto;
+    letter-spacing: 2px;
+    font-size: 1.3em !important;
+  }
+  header .header-title {
+    margin: auto !important;
+  }
+  header .header-title h1 {
+    font-size: 1.6em;
+    margin: auto;
+  }
+  header .header-title h2 {
+    margin: 10px auto;
+    font-size: 1em;
+  }
+}
+/* ------------------------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  header {
+    /*menu de navigation*/
+    /*titre du site dans le header*/
+  }
+  header nav .nav-item .nav-link {
+    width: auto;
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  header .header-title {
+    margin: -40px auto auto 0px !important;
+    padding-left: 40px;
+  }
+  header .header-title h1 {
+    font-size: 1.4em;
+  }
+  header .header-title h2 {
+    margin: 10px auto;
+    font-size: 0.9em;
+  }
+}
+/* ------------------------------------------------------------------------------------------- */
+@media (min-width: 577px) {
+  header {
+    /*menu de navigation*/
+    /*titre du site dans le header*/
+  }
+  header nav .nav-item .nav-link {
+    width: auto;
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  header nav .nav-menu {
+    margin-top: 80px !important;
+  }
+  header .header-title {
+    margin: -40px auto auto 0px !important;
+    padding-left: 90px !important;
+    position: absolute;
+    background-attachment: scroll;
+    top: 170px;
+    left: -20px;
+  }
+  header .header-title h1 {
+    font-size: 1.2em;
+  }
+  header .header-title h2 {
+    margin: 10px auto;
+    font-size: 0.8em;
+  }
+}
+/* ------------------------------------------------------------------------------------------- */
+@media (min-width: 576px) {
+  header {
+    /*menu de navigation*/
+    /*titre du site dans le header*/
+  }
+  header nav .nav-item .nav-link {
+    width: auto;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+  }
+  header nav .navbar-brand figure img {
+    width: 72px;
+  }
+  header nav .nav-menu {
+    margin-top: 30px !important;
+  }
+  header .header-title {
+    margin: auto;
+    padding-left: 50px;
+  }
+  header .header-title h1 {
+    font-size: 1em;
+  }
+  header .header-title h2 {
+    margin: 10px auto;
+    font-size: 0.8em;
+  }
+}
+/* ------------------------------------------------------------------------------------------- */
+@media (max-width: 575.98px) {
+  header {
+    position: relative;
+    /*menu de navigation*/
+    /*titre du site dans le header*/
+  }
+  header nav .nav-item .nav-link {
+    width: auto;
+    font-size: 1.1em;
+  }
+  header nav .navbar-brand figure img {
+    width: 84px !important;
+  }
+  header nav .nav-menu {
+    margin-top: 50px !important;
+  }
+  header .header-title {
+    margin: -80px auto auto -20px !important;
+    padding-left: 70px;
+    position: absolute;
+    background-attachment: scroll;
+    top: 170px;
+    left: -20px;
+  }
+  header .header-title h1 {
+    font-size: 1em;
+  }
+  header .header-title h2 {
+    margin: 10px auto;
+    font-size: 0.7em;
+  }
+}
+/* ------------------------------------------------------------------------------------------- */
 
 /*# sourceMappingURL=root.css.map */
