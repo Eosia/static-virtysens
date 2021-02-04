@@ -7,6 +7,7 @@ header {
     height: auto;
     margin: 0 auto !important;
     padding: 0 !important;
+    position: relative;
 
     /*menu de navigation*/
     nav {
@@ -19,6 +20,8 @@ header {
     /*titre du site dans le header*/
     .header-title {
         margin: auto !important;
+        position: absolute;
+        background-attachment: scroll;
         h1 {
             font-family: $font4;
         }
@@ -123,7 +126,8 @@ header {
             position: absolute;
             background-attachment: scroll;
             top: 170px;
-            left: -20px;
+            left: 25px !important;
+
             h1 {
                 font-size: 1.2em;
             }
@@ -169,7 +173,7 @@ header {
         /*titre du site dans le header*/
         .header-title {
             margin: auto;
-            padding-left: 50px;
+            padding-left: 50px !important;
             h1 {
                 font-size: 1em;
             }
@@ -187,7 +191,6 @@ header {
 // Small devices (portrait phones, 300px and up) /*ok*/
 @media (max-width: 575.98px) { 
     header {
-        position: relative;
 
         /*menu de navigation*/
         nav {
@@ -217,10 +220,7 @@ header {
         .header-title {
             margin: -80px auto auto -20px !important;
             padding-left: 70px;
-            position: absolute;
-            background-attachment: scroll;
             top: 170px;
-            left: -20px;
             h1 {
                 font-size: 1em;
             }

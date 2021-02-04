@@ -72,9 +72,11 @@ em {
 /* temporaire ------------------------------------------------------------ */
 /*taille de police de 12px*/
 .font-12 {
-  font-size: 12px !important;
+  font-size: 10px !important;
   letter-spacing: 1px !important;
-  font-weight: 400 !important;
+  font-weight: 200 !important;
+  text-align: center !important;
+  line-height: 20px !important;
 }
 
 /* scss du header et menu de navigation */
@@ -85,6 +87,7 @@ header {
   height: auto;
   margin: 0 auto !important;
   padding: 0 !important;
+  position: relative;
   /*menu de navigation*/
   /*titre du site dans le header*/
 }
@@ -96,6 +99,8 @@ header nav .nav-link {
 }
 header .header-title {
   margin: auto !important;
+  position: absolute;
+  background-attachment: scroll;
 }
 header .header-title h1 {
   font-family: "Orbitron", sans-serif;
@@ -170,7 +175,7 @@ header .header-title h2 {
     position: absolute;
     background-attachment: scroll;
     top: 170px;
-    left: -20px;
+    left: 25px !important;
   }
   header .header-title h1 {
     font-size: 1.2em;
@@ -199,7 +204,7 @@ header .header-title h2 {
   }
   header .header-title {
     margin: auto;
-    padding-left: 50px;
+    padding-left: 50px !important;
   }
   header .header-title h1 {
     font-size: 1em;
@@ -212,7 +217,6 @@ header .header-title h2 {
 /* ------------------------------------------------------------------------------------------- */
 @media (max-width: 575.98px) {
   header {
-    position: relative;
     /*menu de navigation*/
     /*titre du site dans le header*/
   }
@@ -229,10 +233,7 @@ header .header-title h2 {
   header .header-title {
     margin: -80px auto auto -20px !important;
     padding-left: 70px;
-    position: absolute;
-    background-attachment: scroll;
     top: 170px;
-    left: -20px;
   }
   header .header-title h1 {
     font-size: 1em;
