@@ -1,55 +1,17 @@
-/* scss du footer */
-footer {
-  margin: 0 !important;
-  width: 100% !important;
-  height: auto;
-  background-color: #000 !important;
-  border-top: 5px solid #E09813;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer .footer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  height: auto;
-  margin: auto;
-  width: auto;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 17 |             font-family: $font4;
+ *    |                          ^^^^^^
+ *    '
+ *   sass\modules\footer.scss 17:26  root stylesheet */
 
-@media (min-width: 576px) {
-  footer .footer-container .footer-copyright, footer .footer-container .footer-up {
-    width: 20%;
-    height: auto;
-    margin: auto;
-  }
-  footer .footer-container .social-menu {
-    width: 60% !important;
-    height: auto;
-    margin: auto;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  footer .footer-container .social-menu .social-link {
-    width: 16px !important;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 17 \2502              font-family: $font4;\d\a    \2502                           ^^^^^^\a    \2575 \a   sass\\modules\\footer.scss 17:26  root stylesheet";
 }
-@media (max-width: 575.98px) {
-  footer .footer-container .social-menu {
-    width: 200px !important;
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  footer .footer-container .social-menu .social-link {
-    width: 16px !important;
-  }
-}
-
-/*# sourceMappingURL=footer.css.map */
