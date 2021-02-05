@@ -92,14 +92,104 @@ em {
   font-style: normal !important;
 }
 
-/* temporaire ------------------------------------------------------------ */
-/*taille de police de 12px*/
-.font-12 {
-  font-size: 14px !important;
-  letter-spacing: 1px !important;
-  font-weight: 400 !important;
+/*variable tailles polices*/
+/*titre 3*/
+h3 {
+  font-family: "Lora", serif !important;
+  color: #1387c4 !important;
   text-align: center !important;
-  line-height: 20px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  h3 {
+    font-size: 1.2em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  h3 {
+    font-size: 1em !important;
+  }
+}
+
+/*titre 4*/
+h4 {
+  font-family: "Lora", serif !important;
+  color: #1387c4 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  h4 {
+    font-size: 1.2em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  h4 {
+    font-size: 1em !important;
+  }
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif !important;
+  color: #07364e !important;
+}
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  p {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  p {
+    font-size: 1em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  p {
+    font-size: 0.8em !important;
+    letter-spacing: 1px !important;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

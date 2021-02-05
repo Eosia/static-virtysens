@@ -94,16 +94,177 @@ em {
   font-style: normal !important;
 }
 
-/* temporaire ------------------------------------------------------------ */
-/*taille de police de 12px*/
-.font-12 {
-  font-size: 14px !important;
-  letter-spacing: 1px !important;
-  font-weight: 400 !important;
+/*variable tailles polices*/
+/*titre 3*/
+h3 {
+  font-family: "Lora", serif !important;
+  color: #1387c4 !important;
   text-align: center !important;
-  line-height: 20px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  h3 {
+    font-size: 1.2em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  h3 {
+    font-size: 1em !important;
+  }
 }
 
+/*titre 4*/
+h4 {
+  font-family: "Lora", serif !important;
+  color: #1387c4 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  h4 {
+    font-size: 1.2em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  h4 {
+    font-size: 1em !important;
+  }
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif !important;
+  color: #07364e !important;
+}
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.6em !important;
+  }
+}
+@media (min-width: 992px) {
+  p {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 1.4em !important;
+  }
+}
+@media (min-width: 576px) {
+  p {
+    font-size: 1em !important;
+  }
+}
+@media (max-width: 575.98px) {
+  p {
+    font-size: 0.8em !important;
+    letter-spacing: 1px !important;
+  }
+}
+
+/*scss page d'accueil*/
+.accueil-section-5-item {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.badge {
+  background-color: #2a93c9 !important;
+  padding: 5px px !important;
+  margin: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/*taille de police des badges bleu des témoignages*/
+.font-badge {
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  font-weight: 200 !important;
+  text-align: center !important;
+  line-height: 20px !important;
+  margin: auto;
+  padding: 10px 3px !important;
+}
+
+@media (min-width: 1200px) {
+  .gallery-top {
+    display: visible;
+  }
+
+  .caroussel-top {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .gallery-top {
+    display: visible;
+  }
+
+  .caroussel-top {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .gallery-top {
+    display: visible;
+  }
+
+  .caroussel-top {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .gallery-top {
+    display: visible;
+  }
+
+  .caroussel-top {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .accueil-section-1 .gallery-top {
+    display: none;
+  }
+  .accueil-section-1 .caroussel-top {
+    display: visible;
+    visibility: visible;
+  }
+}
 /* scss du footer */
 footer {
   margin: 0 !important;
