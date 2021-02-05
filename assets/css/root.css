@@ -182,23 +182,18 @@ header {
   height: auto;
   margin: 0 auto !important;
   padding: 0 !important;
-  position: relative;
   /*menu de navigation*/
   /*titre du site dans le header*/
-}
-header nav {
-  padding-right: 15px !important;
 }
 header nav .nav-link {
   font-family: "Orbitron", sans-serif;
 }
 header .header-title {
-  margin: auto !important;
-  position: absolute;
-  background-attachment: scroll;
+  margin: auto;
 }
 header .header-title h1 {
   font-family: "Orbitron", sans-serif;
+  margin-top: 5px !important;
 }
 header .header-title h2 {
   font-family: "Orbitron", sans-serif;
@@ -213,13 +208,13 @@ header .header-title h2 {
   header nav .nav-item .nav-link {
     width: auto;
     letter-spacing: 2px;
-    font-size: 1.3em !important;
+    font-size: 1.2em;
   }
   header .header-title {
-    margin: auto !important;
+    margin-top: -50px !important;
   }
   header .header-title h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin: auto;
   }
   header .header-title h2 {
@@ -239,8 +234,7 @@ header .header-title h2 {
     font-size: 1em;
   }
   header .header-title {
-    margin: -40px auto auto 0px !important;
-    padding-left: 40px;
+    margin-top: -50px !important;
   }
   header .header-title h1 {
     font-size: 1.4em;
@@ -259,18 +253,13 @@ header .header-title h2 {
   header nav .nav-item .nav-link {
     width: auto;
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 0.8em !important;
   }
   header nav .nav-menu {
     margin-top: 80px !important;
   }
   header .header-title {
-    margin: -40px auto auto 0px !important;
-    padding-left: 90px !important;
-    position: absolute;
-    background-attachment: scroll;
-    top: 170px;
-    left: 25px !important;
+    margin-top: -40px !important;
   }
   header .header-title h1 {
     font-size: 1.2em;
@@ -297,10 +286,6 @@ header .header-title h2 {
   header nav .nav-menu {
     margin-top: 30px !important;
   }
-  header .header-title {
-    margin: auto;
-    padding-left: 30px !important;
-  }
   header .header-title h1 {
     font-size: 1em;
   }
@@ -319,23 +304,21 @@ header .header-title h2 {
     width: auto;
     font-size: 1.1em;
   }
+  header nav .navbar-brand {
+    margin-left: -35px !important;
+  }
   header nav .navbar-brand figure img {
-    width: 84px !important;
+    width: 64px !important;
   }
   header nav .nav-menu {
     margin-top: 50px !important;
   }
-  header .header-title {
-    margin: -80px auto auto -20px !important;
-    padding-left: 50px;
-    top: 170px;
-  }
   header .header-title h1 {
-    font-size: 1em;
+    font-size: 0.6em;
   }
   header .header-title h2 {
     margin: 10px auto;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 }
 /* ------------------------------------------------------------------------------------------- */
