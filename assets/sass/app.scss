@@ -1,17 +1,30 @@
 /* breakpoints bootstrap -taille d'écran- */
 
 /*
-    // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) { ... }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
 
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { ... }
+}
 
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
 
-    // Small devices (landscape phones, 576px and up)
-    @media (min-width: 576px) { ... }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Small devices (portrait phones, 300px and up)
+@media (max-width: 575.98px) { 
+
+}
 */
 
 /* app.scss fichier de surcharge */
@@ -47,14 +60,25 @@ $color2: #07364e;
 $color3: #1387c4;
 
 /*reset html, body*/
-
-html, body {
-  width : 100%;
-  height: 100%;
-  box-sizing: border-box;
-  margin: 0 auto !important;
-  padding: 0 !important;
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    //overflow-x: hidden;
 }
+html, body {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+main {
+
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto !important;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -64,6 +88,9 @@ html {
 /*class pour cacher des éléments*/
 .hidden {
     display: none;
+}
+.clear {
+    clear: both;
 }
 
 /*ligne de séparation dorée*/

@@ -1,3 +1,31 @@
+/* scss du footer */
+
+footer {
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto;
+    background-color: #000 !important; 
+    border-top: 5px solid#E09813;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .footer-container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        margin: auto;
+        width: auto;
+    }
+
+}
+
+
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
 
@@ -15,5 +43,49 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
+    footer {
+        .footer-container {
+        
+            .footer-copyright, .footer-up {
+                width: 20%;
+                height: auto;
+                margin: auto;
+            }
 
+            .social-menu {
+                width: 60% !important;
+                height: auto;
+                margin: auto;
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: space-evenly;
+                align-items: center;
+                .social-link {
+                    width: 16px !important;
+                }
+            }
+        
+        }    
+    }
+}
+
+// Small devices (portrait phones, 300px and up) /*ok*/
+@media (max-width: 575.98px) { 
+    footer {
+        .footer-container {
+        
+            .social-menu {
+                width: 200px !important;
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: space-evenly;
+                align-items: center;
+                .social-link {
+                    width: 16px !important;
+                }
+            }
+        
+        }    
+    }
+    
 }
