@@ -211,7 +211,16 @@ p{
     }
 }
 
-.btn-info {
-
+/*responsive de la taille de la police des cta*/
+.btn-cta {
+    border-radius: 10px !important;
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+        font-size: 1.2em !important;
+    }
+    @media (max-width: 767.99px) { 
+        font-size: 0.9em !important;
+        
+    }
 }
 
