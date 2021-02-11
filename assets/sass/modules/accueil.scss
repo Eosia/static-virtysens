@@ -43,6 +43,21 @@
     .caroussel-top {
         display: none;
     }
+
+    .accueil-section-3 {
+
+        .home-section-4-img-pc {
+            display:  visible;
+            visibility: visible;
+        }
+
+        .home-section-4-div-hidden {
+            display: none !important;
+        }
+
+    }
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -53,6 +68,7 @@
     .caroussel-top {
         display: none;
     }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -63,6 +79,7 @@
     .caroussel-top {
         display: none;
     }
+
 
 }
 
@@ -77,4 +94,39 @@
             visibility: visible;
         }
     }
+
+    .accueil-section-3 {
+
+        .home-section-4-img-pc {
+            display:  none;
+        }
+
+        .home-section-4-div-hidden {
+            display: visible;
+            visibility: visible;
+        }
+
+    }
+
 }
+
+
+// Small devices (portrait phones, 300px and up)
+@media (max-width: 992.99px) { 
+
+
+    .accueil-section-3 {
+
+        .home-section-4-img-pc {
+            display:  none;
+        }
+
+        .home-section-4-div-hidden {
+            display: visible;
+            visibility: visible;
+        }
+
+    }
+
+}
+

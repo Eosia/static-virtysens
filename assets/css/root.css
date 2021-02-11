@@ -125,7 +125,7 @@ h3 {
 }
 @media (max-width: 575.98px) {
   h3 {
-    font-size: 1em !important;
+    font-size: 0.8em !important;
   }
 }
 
@@ -252,6 +252,14 @@ p {
   .caroussel-top {
     display: none;
   }
+
+  .accueil-section-3 .home-section-4-img-pc {
+    display: visible;
+    visibility: visible;
+  }
+  .accueil-section-3 .home-section-4-div-hidden {
+    display: none !important;
+  }
 }
 @media (min-width: 768px) {
   .gallery-top {
@@ -276,6 +284,23 @@ p {
     display: none;
   }
   .accueil-section-1 .caroussel-top {
+    display: visible;
+    visibility: visible;
+  }
+
+  .accueil-section-3 .home-section-4-img-pc {
+    display: none;
+  }
+  .accueil-section-3 .home-section-4-div-hidden {
+    display: visible;
+    visibility: visible;
+  }
+}
+@media (max-width: 992.99px) {
+  .accueil-section-3 .home-section-4-img-pc {
+    display: none;
+  }
+  .accueil-section-3 .home-section-4-div-hidden {
     display: visible;
     visibility: visible;
   }
