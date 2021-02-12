@@ -1,7 +1,16 @@
 .produits-section-1 {
     border-bottom: 5px solid#E09813;
     background-color: black;
+    
 }
+
+.produits-section-3 {
+        /*couleur de fond des nom des auteurs des témoignages*/
+        .card-temoignage-footer {
+            background-color: #2A93C9 !important;
+        }
+}
+
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
@@ -35,9 +44,9 @@
             display: visible !important;
 
             /* height minimum des témoignages du carousselle sur la pages produits*/
-            .caroussel-temoignages-item {
-                min-height: 400px;
-            }
+            // .caroussel-temoignages-item {
+            //     min-height: 400px;
+            // }
         }
     }
 
@@ -54,10 +63,10 @@
         .temoignages-mobile-caroussel {
             /* height minimum des témoignages du carousselle sur la pages produits*/
             .caroussel-temoignages-item {
-                height: 500px !important;
-                min-height: 500px !important;
-                width: 100% !important;
-                max-width: 100% !important;
+                // height: 500px !important;
+                // min-height: 500px !important;
+                // width: 100% !important;
+                // max-width: 100% !important;
             }
         }
     }
@@ -70,10 +79,10 @@
         .temoignages-mobile-caroussel {
             /* height minimum des témoignages du carousselle sur la pages produits*/
             .caroussel-temoignages-item {
-                height: 600px !important;
-                min-height: 600px !important;
-                width: 100% !important;
-                max-width: 100% !important;
+                // height: 600px !important;
+                // min-height: 600px !important;
+                // width: 100% !important;
+                // max-width: 100% !important;
             }
         }
     }

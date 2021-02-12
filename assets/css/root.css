@@ -213,6 +213,10 @@ p {
 .accueil-section-5-item {
   margin-left: 50px !important;
   margin-right: 50px !important;
+  /*couleur de fond des nom des auteurs des témoignages*/
+}
+.accueil-section-5-item .card-temoignage-footer {
+  background-color: #2A93C9 !important;
 }
 
 .badge {
@@ -515,6 +519,13 @@ header .header-title h2 {
   background-color: black;
 }
 
+.produits-section-3 {
+  /*couleur de fond des nom des auteurs des témoignages*/
+}
+.produits-section-3 .card-temoignage-footer {
+  background-color: #2A93C9 !important;
+}
+
 @media (min-width: 992px) {
   /*affiche les témoignages sur les solution en version pc*/
   .produits-section-3 .temoignages-pc {
@@ -534,32 +545,17 @@ header .header-title h2 {
     display: visible !important;
     /* height minimum des témoignages du carousselle sur la pages produits*/
   }
-  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
-    min-height: 400px;
-  }
 }
 @media (min-width: 576px) {
   /*affiche les témoignages sur les solution en version pmobile*/
   .produits-section-3 .temoignages-mobile-caroussel {
     /* height minimum des témoignages du carousselle sur la pages produits*/
   }
-  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
-    height: 500px !important;
-    min-height: 500px !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
 }
 @media (max-width: 575.98px) {
   /*affiche les témoignages sur les solution en version pmobile*/
   .produits-section-3 .temoignages-mobile-caroussel {
     /* height minimum des témoignages du carousselle sur la pages produits*/
-  }
-  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
-    height: 600px !important;
-    min-height: 600px !important;
-    width: 100% !important;
-    max-width: 100% !important;
   }
 }
 
