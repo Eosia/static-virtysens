@@ -245,6 +245,7 @@ p {
   }
 }
 @media (min-width: 992px) {
+  /*section 1 des 3 photos*/
   .gallery-top {
     display: visible;
   }
@@ -255,7 +256,6 @@ p {
 
   .accueil-section-3 .home-section-4-img-pc {
     display: visible;
-    visibility: visible;
   }
   .accueil-section-3 .home-section-4-div-hidden {
     display: none !important;
@@ -296,7 +296,7 @@ p {
     visibility: visible;
   }
 }
-@media (max-width: 992.99px) {
+@media (max-width: 991.98px) {
   .accueil-section-3 .home-section-4-img-pc {
     display: none;
   }
@@ -513,6 +513,54 @@ header .header-title h2 {
 .produits-section-1 {
   border-bottom: 5px solid #E09813;
   background-color: black;
+}
+
+@media (min-width: 992px) {
+  /*affiche les témoignages sur les solution en version pc*/
+  .produits-section-3 .temoignages-pc {
+    display: visible;
+  }
+  .produits-section-3 .temoignages-mobile-caroussel {
+    display: none !important;
+  }
+}
+/*gere le passage de la version pc au mobile pour les temoignages sur les solutions*/
+@media (max-width: 991.98px) {
+  /*affiche les témoignages sur les solution en version pmobile*/
+  .produits-section-3 .temoignages-pc {
+    display: none;
+  }
+  .produits-section-3 .temoignages-mobile-caroussel {
+    display: visible !important;
+    /* height minimum des témoignages du carousselle sur la pages produits*/
+  }
+  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
+    min-height: 400px;
+  }
+}
+@media (min-width: 576px) {
+  /*affiche les témoignages sur les solution en version pmobile*/
+  .produits-section-3 .temoignages-mobile-caroussel {
+    /* height minimum des témoignages du carousselle sur la pages produits*/
+  }
+  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
+    height: 500px !important;
+    min-height: 500px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 575.98px) {
+  /*affiche les témoignages sur les solution en version pmobile*/
+  .produits-section-3 .temoignages-mobile-caroussel {
+    /* height minimum des témoignages du carousselle sur la pages produits*/
+  }
+  .produits-section-3 .temoignages-mobile-caroussel .caroussel-temoignages-item {
+    height: 600px !important;
+    min-height: 600px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=root.css.map */
