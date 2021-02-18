@@ -514,6 +514,48 @@ header .header-title h2 {
   }
 }
 /* ------------------------------------------------------------------------------------------- */
+/*scss page d'histoire*/
+/*design des citations de la page histoire*/
+.citation {
+  color: #2a93c9 !important;
+  font-size: 1.2em !important;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Orbitron", sans-serif !important;
+}
+
+@media (min-width: 992px) {
+  .histoire-section-3 .histoire-section-4-img-pc {
+    display: visible;
+  }
+  .histoire-section-3 .histoire-section-4-div-hidden {
+    display: none !important;
+  }
+}
+@media (max-width: 575.98px) {
+  /*design des citations de la page histoire en mobile*/
+  .citation {
+    color: #2a93c9 !important;
+    font-size: 1em !important;
+  }
+
+  .histoire-section-3 .histoire-section-4-img-pc {
+    display: none;
+  }
+  .histoire-section-3 .histoire-section-4-div-hidden {
+    display: visible;
+    visibility: visible;
+  }
+}
+@media (max-width: 991.98px) {
+  .histoire-section-3 .histoire-section-4-img-pc {
+    display: none;
+  }
+  .histoire-section-3 .histoire-section-4-div-hidden {
+    display: visible;
+    visibility: visible;
+  }
+}
 .produits-section-1 {
   border-bottom: 5px solid #E09813;
   background-color: black;
